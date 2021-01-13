@@ -114,6 +114,7 @@ public class LoginController {
         postParameters.add("grant_type", "password");
 
         System.err.println("测试git提交2");
+        System.err.println("测试git提交3");
         // 添加参数区分,第三方登录
         postParameters.add("login_type", type);
         // 使用客户端的请求头,发起请求
